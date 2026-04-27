@@ -44,9 +44,8 @@ console.log(x); // undefined
 
 let usuario = null;
 
-// nen
+// NaN
 // Not a Number significa que se esta intentando operar con valores incompatibles, ejemplo un string y un number
 
 let resultado = "hola" * 2;
 console.log(resultado); // NaN
-
