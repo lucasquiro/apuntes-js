@@ -45,7 +45,9 @@ console.log(x); // undefined
 let usuario = null;
 
 // NaN
-// Not a Number significa que se esta intentando operar con valores incompatibles, ejemplo un string y un number
+// Not a Number significa que se esta intentando operar con valores incompatibles, ejemplo un string y un number, 
+// Esto solo es valido para operaciones que necesiten datos especificos, como la multiplicacion, la suma no es un ejemplo valido porque js 
+// convierte el number a string y concatena ambos
 
 let resultado = "hola" * 2;
 console.log(resultado); // NaN

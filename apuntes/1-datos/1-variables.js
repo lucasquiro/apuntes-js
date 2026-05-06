@@ -18,3 +18,7 @@ const tablos = escencia;
 
 let a = 1, b = 2, c = 3;
 
+// otro concepto importante en js es el hoisting, en el cual aveces una variable puede ser llamada antes de ser definida 
+// Pero se tiende a primero declarar las variables antes de usarlas para evitar confusiones, errores de codigo y facilital la lectura del mismo
+// Esto solo aplica para var y no para let y const
+
